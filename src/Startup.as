@@ -1,18 +1,18 @@
 package
 {
 	import flash.display.Sprite;
-	import flash.display.StageAlign;
-	import flash.display.StageScaleMode;
+	import starling.core.Starling;
+	import com.aldrinalmacin.game.BoardGame;
 	
+	[SWF(width="400", height="300", frameRate="60", backgroundColor="#ffffff")]
 	public class Startup extends Sprite
 	{
+		private var _starling:Starling;
+		
 		public function Startup()
 		{
-			super();
-			
-			// support autoOrients
-			stage.align = StageAlign.TOP_LEFT;
-			stage.scaleMode = StageScaleMode.NO_SCALE;
+			_starling = new Starling(BoardGame, stage);
+			_starling.start();
 		}
 	}
 }

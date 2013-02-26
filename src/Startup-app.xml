@@ -111,6 +111,9 @@
 
 		<!-- Display Resolution for the app (either "standard" or "high"). Optional, OSX-only. Default "standard" -->
 		<!-- <requestedDisplayResolution></requestedDisplayResolution> -->
+
+    <fullScreen>true</fullScreen>
+    <renderMode>direct</renderMode> -->
 	<autoOrients>true</autoOrients>
         <fullScreen>true</fullScreen>
         <visible>true</visible>
