@@ -4,7 +4,7 @@ package
 	import starling.core.Starling;
 	import com.aldrinalmacin.game.BoardGame;
 	
-	[SWF(width="400", height="300", frameRate="60", backgroundColor="#ffffff")]
+	[SWF(width="768", height="1024", frameRate="60", backgroundColor="#ffffff")]
 	public class Startup extends Sprite
 	{
 		private var _starling:Starling;
